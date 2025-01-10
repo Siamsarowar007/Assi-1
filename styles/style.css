@@ -1,0 +1,148 @@
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* share style  */
+  .text-primary{
+
+  }
+.nav-color{
+    color: #006A50;
+}
+
+/* nav styles  */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 160px;
+
+}
+.nav-title{
+    font: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+    
+}
+.nav-btn{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: none;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
+    
+}
+/* common style 
+margin: 16px 120px 66px 116px; */
+/* banner style  */
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 120px 66px 116px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.bannar-content{
+    /* max-width: 600px; */
+    margin: 44px 74px 0px 74px;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #0E0E0E;
+}
+.banner-pic{
+    /* width: 470px; */
+    margin: 0px 54px 44px 54px;
+}
+.banner-btn{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+}
+
+/* technology section */
+.tech-head{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-left: 116px;
+}
+
+.technology-container{
+    display: flex;
+    gap: 20px;
+    
+}
+.technology{
+    padding: 24px;
+    background-color: darkgray;
+    margin: 16px 120px 66px 116px;
+    border-radius: 16px;
+    gap: 20px;
+}
+.technology-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: auto;
+    padding: 22px;
+}
+.technology-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* future style  */
+
+.future{
+
+}
+.future-head{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+
+}
+.future-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+}
+.future-container{
+    display: flex;
+    gap: 20px;
+
+}
+.future-content{
+
+}
+.future-title{
+
+}
+.future-description{
+
+}
+.future-btn{
+
+}
