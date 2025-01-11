@@ -42,20 +42,20 @@ nav{
     border-color: #006A50;
     
 }
-/* common style 
-margin: 16px 120px 66px 116px; */
-/* banner style  */
+
 
 
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 16px 120px 66px 116px;
+   
+    width: 88%;
+    margin: auto;
     background-color: #C6E4D6;
     border-radius: 24px;
 }
 .bannar-content{
-    /* max-width: 600px; */
+    
     margin: 44px 74px 0px 74px;
 }
 .banner-title{
@@ -70,8 +70,9 @@ margin: 16px 120px 66px 116px; */
     color: #0E0E0E;
 }
 .banner-pic{
-    /* width: 470px; */
+    
     margin: 0px 54px 44px 54px;
+    padding-top: 4%;
 }
 .banner-btn{
     text-decoration: none;
@@ -85,23 +86,35 @@ margin: 16px 120px 66px 116px; */
 }
 
 /* technology section */
+
+.technology-0{
+    
+    width: 88%;
+    margin: auto;
+}
 .tech-head{
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
-    margin-left: 116px;
+   
 }
 
 .technology-container{
     display: flex;
-    gap: 20px;
+    
+   
+   justify-content: center;
+   
+    gap: 6px;
 }
 .technology{
     padding: 24px;
     background-color: darkgray;
-    margin: 16px 120px 66px 116px;
+   
+   
     border-radius: 16px;
-    gap: 20px;
+    gap: 2px;
+    
 }
 .technology-title{
     font-size: 18px;
@@ -118,8 +131,12 @@ margin: 16px 120px 66px 116px; */
 /* future style  */
 
 .future{
-    margin-left: 116px;
-    margin-bottom: 32px;
+    
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+
 }
 .future-head{
     font-size: 40px;
@@ -134,34 +151,56 @@ margin: 16px 120px 66px 116px; */
 }
 .future-container{
     display: flex;
+    
+    
+   
+    justify-content: center;
+    
     gap: 24px;
-    margin-right: 100px;
+    
 }
 .future-content-one{
-    width: 400px;
+   
+    padding: 2%;
     border-radius: 16px;
-    background-color: #5490F5;
+    background-color: #c0d3f5;
 }
 .future-content-two{
-    width: 400px;
+    
+    padding: 2%;
+    
     border-radius: 16px;
-    background-color: #09A15C;
+    background-color: #b4f5d8;
 
 }
 .future-content-three{
-    width: 400px;
+   
+    padding: 2%;
     border-radius: 16px;
+    background-color: #f8eed7;
+
+}
+
+.future-btn-one{
+    background-color: #5490F5;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+.future-btn-two{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+.future-btn-three{
     background-color: #FFC239;
-
-}
-.future-title{
-
-}
-.future-description{
-
-}
-.future-btn{
-
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
 }
 
 /* content-speech */
@@ -170,30 +209,28 @@ margin: 16px 120px 66px 116px; */
         padding: 20px 20px;
         border-radius: 16px;
         margin-top: 32px;
-        margin-right: 93px;
-        /* background-image: url(../assets/quote-bg.png);
-        background-repeat: no-repeat;
-        background-position: top left; */
+      
 }
 
 .content-speech-secondary{
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: top left;
+   
     margin-bottom: 6px;
     font-size: 16px;
-    color: #rgba(14, 14, 14, 0.700 ) ;
+    color: rgba(14, 14, 14, 0.700 ) ;
+    position: relative;
+
+}
+.content-speech-quote{
+position: absolute;
+top: -30px;
 
 }
 .content-speech-secondary-head{
     margin-bottom: 0px;
 
 }
-.speech-icon{
 
-}
-/* .speech-para{
-} */
+
 .speech-head{
     font-weight: 600px;
     color: #0E0E0E;
@@ -206,15 +243,10 @@ margin: 16px 120px 66px 116px; */
 
 /* Recent news */
 .news{
-    /* margin: 80px 160px; */
-    margin: 50px 93px;
+    width: 88%;
+    margin: auto;
 }
-.recent-news{
 
-}
-.recent-news-des{
-
-}
 .news-control{
     display: flex;
     justify-content: space-between;
@@ -222,7 +254,8 @@ margin: 16px 120px 66px 116px; */
     padding: 44px;
     border-radius: 24px;
     background-color: #f4f3ef;
-    margin: 16px;
+    
+    margin-bottom: 8px;
 
 }
 .news-control-two{
@@ -232,6 +265,8 @@ margin: 16px 120px 66px 116px; */
     padding: 44px;
     border-radius: 24px;
     background-color: #f4f3ef;
+    margin-bottom: 8px;
+    
 }
 .image-control{
     border-radius: 24px;
@@ -256,9 +291,6 @@ margin: 16px 120px 66px 116px; */
     border: none;
 
 }
-.aljazeera{
-   
-}
 
 /* Donate  */
 
@@ -266,9 +298,7 @@ margin: 16px 120px 66px 116px; */
     margin: 50px 93px;
 
 }
-.donate-titel{
 
-}
 .donate-head{
     font-size: 40px;
     font-weight: bold;
@@ -280,50 +310,71 @@ margin: 16px 120px 66px 116px; */
     font-size: 16px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .donate-subtitel{
     display: flex;
+    justify-content: center;
     
-    padding: 20px 100px 20px 380px;
-    /* margin: 50px 93px; */
+    gap: 24px;
+    padding-right: 20%;
+    padding-left: 20%;
 }
-.d-one {
+.d-amount {
     background-color:#f4f3ef;
+    width: 20%;
     font-size: 36px;
     font-weight: bold;
     padding: 32px ;
     border-radius: 16px;
-    margin-right: 22px;
+   
 }
-.d-two{
+/* .d-two{
     background-color:#f4f3ef;
+    width: 20%;
     font-size: 36px;
     font-weight: bold;
     padding: 32px ;
     border-radius: 16px;
-    margin-right: 22px;
+    
 }
 .d-three{
     background-color: #C6E4D6;
+    width: 20%;
     font-size: 36px;
     font-weight: bold;
     padding: 32px ;
     border-radius: 16px;
-    margin-right: 22px;
+    
 }
 .d-four{
     background-color:#f4f3ef;
+    width: 20%;
     font-size: 36px;
     font-weight: bold;
     padding: 32px ;
     border-radius: 16px;
-    margin-right: 22px;
+   
+} */
+.donate-taka-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
 }
 .donate-taka{
     font-size: 20px;
     font-weight: 500;
-    padding: 20px 250px;
-    margin: 20px 280px 20px 480px;
+    padding: 20px 380px;
+   
+    background-color: #f4f3ef;
+    border: none;
+}
+
+.donate-btn-container{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .donate-btn{
@@ -341,7 +392,12 @@ margin: 16px 120px 66px 116px; */
 
 .newsletter{
 
-
+    background-color: #c9e9e1;
+    width: 88%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .newsletter-head{
     font-size: 40px;
@@ -355,10 +411,21 @@ margin: 16px 120px 66px 116px; */
     display: flex;
     justify-content: center;
 }
+
+.email-container{
+ display: flex;
+ justify-content: center;
+ 
+ 
+ 
+}
 .email{
     padding: 18px 400px 18px 40px;
     font-size: 16px;
     font-weight: 400px;
+    border-top-left-radius: 8px;
+    border: none;
+    border-bottom-left-radius: 8px;
     
     
 
@@ -370,6 +437,8 @@ margin: 16px 120px 66px 116px; */
     color: #FFFFFF;
     background-color: #006A50;
     border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 
 }
 .last-des{
@@ -382,7 +451,12 @@ margin: 16px 120px 66px 116px; */
 /* last */
 
 .bangladesh{
-
+ margin: auto;
+ background-color: #f4f3ef;
+ padding-top: 8px;
+ margin-top: 50px;
+ padding-bottom: 20px;
+ 
 }
 .lst-head{
     font-size: 32px;
@@ -406,4 +480,27 @@ margin: 16px 120px 66px 116px; */
 }
 .image-three{
     margin-right: 10px;
+}
+.line{
+    width: 80%;
+    opacity: 30%;
+   
+}
+
+.nav-btn:hover,
+.banner-btn:hover,
+.news-btn:hover,
+.future-btn-one:hover,
+.future-btn-two:hover,
+.future-btn-three:hover,
+.sub-btn:hover,
+.donate-btn:hover {
+  background-color: #1f1792;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.d-amount:hover{
+    background-color: #C6E4D6;
+    cursor: pointer;
 }
