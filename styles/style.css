@@ -95,7 +95,6 @@ margin: 16px 120px 66px 116px; */
 .technology-container{
     display: flex;
     gap: 20px;
-    
 }
 .technology{
     padding: 24px;
@@ -121,13 +120,11 @@ margin: 16px 120px 66px 116px; */
 .future{
     margin-left: 116px;
     margin-bottom: 32px;
-
 }
 .future-head{
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
-
 }
 .future-para{
     font-size: 16px;
@@ -139,7 +136,6 @@ margin: 16px 120px 66px 116px; */
     display: flex;
     gap: 24px;
     margin-right: 100px;
-
 }
 .future-content-one{
     width: 400px;
@@ -150,14 +146,12 @@ margin: 16px 120px 66px 116px; */
     width: 400px;
     border-radius: 16px;
     background-color: #09A15C;
-    
 
 }
 .future-content-three{
     width: 400px;
     border-radius: 16px;
     background-color: #FFC239;
-    
 
 }
 .future-title{
@@ -195,7 +189,6 @@ margin: 16px 120px 66px 116px; */
     margin-bottom: 0px;
 
 }
-
 .speech-icon{
 
 }
@@ -204,8 +197,6 @@ margin: 16px 120px 66px 116px; */
 .speech-head{
     font-weight: 600px;
     color: #0E0E0E;
-
-
 }
 .speech-para{
     font-weight: 400px;
@@ -218,7 +209,6 @@ margin: 16px 120px 66px 116px; */
     /* margin: 80px 160px; */
     margin: 50px 93px;
 }
-
 .recent-news{
 
 }
@@ -243,18 +233,15 @@ margin: 16px 120px 66px 116px; */
     border-radius: 24px;
     background-color: #f4f3ef;
 }
-
 .image-control{
     border-radius: 24px;
 
 }
-
 .newe-headline{
     font-size: 32px;
     font-weight: bold;
 
 }
-
 .news-description{
     font-size: 16px;
     margin-bottom: 28px;
@@ -269,7 +256,84 @@ margin: 16px 120px 66px 116px; */
     border: none;
 
 }
-
 .aljazeera{
    
+}
+
+/* Donate  */
+
+.donate{
+    margin: 50px 93px;
+
+}
+.donate-titel{
+
+}
+.donate-head{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+.donate-para{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.donate-subtitel{
+    display: flex;
+    
+    padding: 20px 100px 20px 380px;
+    /* margin: 50px 93px; */
+}
+.d-one {
+    background-color:#f4f3ef;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 32px ;
+    border-radius: 16px;
+    margin-right: 22px;
+}
+.d-two{
+    background-color:#f4f3ef;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 32px ;
+    border-radius: 16px;
+    margin-right: 22px;
+}
+.d-three{
+    background-color: #C6E4D6;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 32px ;
+    border-radius: 16px;
+    margin-right: 22px;
+}
+.d-four{
+    background-color:#f4f3ef;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 32px ;
+    border-radius: 16px;
+    margin-right: 22px;
+}
+.donate-taka{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 250px;
+    margin: 20px 280px 20px 480px;
+}
+
+.donate-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
 }
