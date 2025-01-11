@@ -337,3 +337,73 @@ margin: 16px 120px 66px 116px; */
     display: flex;
     justify-content: center;
 }
+/* footer style  */
+
+.newsletter{
+
+
+}
+.newsletter-head{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.newsletter-para{
+    font-size: 16px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+}
+.email{
+    padding: 18px 400px 18px 40px;
+    font-size: 16px;
+    font-weight: 400px;
+    
+    
+
+}
+.sub-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+
+}
+.last-des{
+    font-size: 16px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+/* last */
+
+.bangladesh{
+
+}
+.lst-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.image-one{
+    margin-right: 10px;
+
+}
+.image-two{
+    margin-right: 10px;
+}
+.image-three{
+    margin-right: 10px;
+}
