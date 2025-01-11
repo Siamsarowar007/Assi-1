@@ -116,6 +116,8 @@ margin: 16px 120px 66px 116px; */
 /* future style  */
 
 .future{
+    margin-left: 116px;
+    margin-bottom: 32px;
 
 }
 .future-head{
@@ -128,13 +130,31 @@ margin: 16px 120px 66px 116px; */
     font-size: 16px;
     font-weight: 400;
     color: #0E0E0E;
+    margin-right: 93px;
 }
 .future-container{
     display: flex;
-    gap: 20px;
+    gap: 24px;
+    margin-right: 100px;
 
 }
-.future-content{
+.future-content-one{
+    width: 400px;
+    border-radius: 16px;
+    background-color: #5490F5;
+}
+.future-content-two{
+    width: 400px;
+    border-radius: 16px;
+    background-color: #09A15C;
+    
+
+}
+.future-content-three{
+    width: 400px;
+    border-radius: 16px;
+    background-color: #FFC239;
+    
 
 }
 .future-title{
@@ -145,4 +165,47 @@ margin: 16px 120px 66px 116px; */
 }
 .future-btn{
 
+}
+
+/* content-speech */
+.content-speech-primary{
+        background-color: #f4f3ef;
+        padding: 20px 20px;
+        border-radius: 16px;
+        margin-top: 32px;
+        margin-right: 93px;
+        /* background-image: url(../assets/quote-bg.png);
+        background-repeat: no-repeat;
+        background-position: top left; */
+}
+
+.content-speech-secondary{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #rgba(14, 14, 14, 0.700 ) ;
+
+}
+.content-speech-secondary-head{
+    margin-bottom: 0px;
+
+}
+
+.speech-icon{
+
+}
+/* .speech-para{
+} */
+.speech-head{
+    font-weight: 600px;
+    color: #0E0E0E;
+
+
+}
+.speech-para{
+    font-weight: 400px;
+    font-size: 14px;
+    margin: 0px;
 }
