@@ -4,6 +4,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  *{
+    
+  }
 
   /* share style  */
   .text-primary{
@@ -208,4 +211,65 @@ margin: 16px 120px 66px 116px; */
     font-weight: 400px;
     font-size: 14px;
     margin: 0px;
+}
+
+/* Recent news */
+.news{
+    /* margin: 80px 160px; */
+    margin: 50px 93px;
+}
+
+.recent-news{
+
+}
+.recent-news-des{
+
+}
+.news-control{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 44px;
+    border-radius: 24px;
+    background-color: #f4f3ef;
+    margin: 16px;
+
+}
+.news-control-two{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 44px;
+    border-radius: 24px;
+    background-color: #f4f3ef;
+}
+
+.image-control{
+    border-radius: 24px;
+
+}
+
+.newe-headline{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.news-description{
+    font-size: 16px;
+    margin-bottom: 28px;
+
+}
+.news-btn{
+    background-color: #006A50;
+    color: white;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.aljazeera{
+   
 }
